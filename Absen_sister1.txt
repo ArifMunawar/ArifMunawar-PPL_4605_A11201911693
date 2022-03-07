@@ -1,0 +1,23 @@
+1. Sistem terdistribusi adalah kumpulan komputer otonom yang dihubungkan oleh jaringan dengan software yang dirancang untuk menghasilkan fasilitas komputerisasi terintegrasi dianggap oleh pengguna sebagai satu sistem komputer. manfaat : data sharing, device sharing, communication, fleksibility, multiuser computing
+2. Complexity : Secara umum secara rancangan, implementasi dan maintenance (error handdling) jadi lebih kompleks daripada arsitektur terpusat.
+Security : Asumsi terhadap sistem yang terhubung jaringan artinya telah masuk ke jaringan publik ini artinya setiap orang diperbolehkan untuk bisa mengakses data pada jaringan publik.
+Manageability : Membutuhkan banyak usaha untuk mengorganisasi sistem.
+Unpredictability : Sulit diprediksi terhadap ketidakstabilan sistem tergantung dari sistem organisasi dan banyaknya akses terhadap jaringan. 
+3.
+Karakteristik sistem terpusat :
+- Komputer otonom yang secara eksplisit terlihat (diberikan alamat ip)
+- Berbagi resource setiap saat untuk seluruh user
+- Aplikasi berjalan diatas single proses(sor) 
+- Sumber daya nampak
+- Single Control (SPoC – Single Point of Control)
+- Single Errors (SPoF – Single Point of Failure)
+
+
+Karakteristik sistem terdistribusi :
+- Gabungan dari komputer bersifat otonom
+- Sumber daya tidak dapat di akses secara langsung
+-Aplikasi berjalan secara bersamaan pada prosessor yang berbeda
+-Concurrency of components
+- MPoF – Multiple Points of Failure
+- MPoC – Multiple Points of Control
+
